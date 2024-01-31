@@ -3,15 +3,14 @@ package com.cc.java;
 public class App {
 
     public static void main(String[] args) {
-        Player player1 = new Player(100, 120);
+        PlayerWarrrior playerWar1 = new PlayerWarrrior(100, 200);
         
-        System.out.println("Hallo Spieler, dein Leben beträgt " + player1.getMaxHp() + " Hp," + "dein Mana beträgt " + player1.getMaxMana() + " Mp");
-        
+        output("Hallo Spieler, Gesundheit: " + playerWar1.getMaxHp() + " HP. Deine Mana: " + playerWar1.getMaxMana()+ "Mana");
     }
 
 
-// private static void output(String outputStr) {
-// System.out.println(outputStr);
-// }
+private static void output(String outputStr) {
+System.out.println(outputStr);
+}
 
 }
